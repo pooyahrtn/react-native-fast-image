@@ -31,10 +31,10 @@ android {
     sourceSets {
         main {
             java {
-                if (safeExtGet('excludeAppGlideModule', false)) {
-                    srcDir "src"
-                    exclude "**/FastImageGlideModule.java"
-                }
+                // if (safeExtGet('excludeAppGlideModule', false)) {
+                //     srcDir "src"
+                //     exclude "**/FastImageGlideModule.java"
+                // }
             }
         }
     }
