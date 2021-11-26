@@ -206,6 +206,7 @@ export interface FastImageStaticProperties {
     preload: (sources: Source[]) => void
     clearMemoryCache: () => Promise<void>
     clearDiskCache: () => Promise<void>
+    enableDiskCaching: ()=> void;
 }
 
 const FastImage: React.ComponentType<FastImageProps> &
